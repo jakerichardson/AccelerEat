@@ -1,9 +1,9 @@
 
-<div class="jumbotron center">
+<div class="jumbotron center" style="$jumbotron-bg: #c0392b">
 	<h1>welcome to accelerEat!</h1>
   <br>
 
-<div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+<div id="carousel-example-generic" class="carousel slide" style="width: 900px; margin: 0 auto" data-ride="carousel">
   <!-- Indicators -->
   <ol class="carousel-indicators">
     <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
@@ -14,23 +14,22 @@
   <!-- Wrapper for slides -->
   <div class="carousel-inner">
     <div class="item active">
-      <%= image_tag 'limetruck.jpg' %>
+      <%= image_tag 'limetruck.jpg', class: "img-rounded" %>
       <div class="carousel-caption">
-        <h3>Featured: The Lime Truck</h3>
+        <h3>featured: the lime truck</h3>
         <p>Winners of The Great Food Truck Race on Food Network!</p>
       </div>
     </div>
     <div class="item">
-                <%= image_tag 'sashimi.jpg' %>
+                <%= image_tag 'sashimi.jpg', class: "img-rounded" %>
                 <div class="container">
                     <div class="carousel-caption">
-                        <h1>Featured Charity: International Justice Mission</h1>
-                        <p class="lead">IJM provides legal services abroad to combat injustice. Specifically, the organization defends victims of violent oppression - whether trafficked girls in India, or wrongfully imprisoned fathers in Kenya.</p>
-                        <a class="btn btn-large btn-primary" href="http://www.ijm.org">Learn more</a>
+                        <h2>bring it entree</h2>
+                        <p class="lead">accelerEat is partnered with only the top local produce suppliers, meaning its from the farm to your fork, on the go. </p>
+                        <!-- <a class="btn btn-large btn-primary" href="http://www.ijm.org">Learn more</a> -->
                     </div>
                 </div>
             </div>
-    ...
   </div>
 
   <!-- Controls -->
