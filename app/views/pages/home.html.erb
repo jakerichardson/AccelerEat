@@ -1,8 +1,7 @@
 
 <div class="jumbotron center">
 	<h1>welcome to accelerEat!</h1>
-	click here to <%= link_to "Sign Up", "#", class: "btn btn-primary" %>
-</div>
+  <br>
 
 <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
   <!-- Indicators -->
@@ -15,11 +14,22 @@
   <!-- Wrapper for slides -->
   <div class="carousel-inner">
     <div class="item active">
-      <img src="..." alt="...">
+      <%= image_tag 'limetruck.jpg' %>
       <div class="carousel-caption">
-        ...
+        <h3>Featured: The Lime Truck</h3>
+        <p>Winners of The Great Food Truck Race on Food Network!</p>
       </div>
     </div>
+    <div class="item">
+                <%= image_tag 'sashimi.jpg' %>
+                <div class="container">
+                    <div class="carousel-caption">
+                        <h1>Featured Charity: International Justice Mission</h1>
+                        <p class="lead">IJM provides legal services abroad to combat injustice. Specifically, the organization defends victims of violent oppression - whether trafficked girls in India, or wrongfully imprisoned fathers in Kenya.</p>
+                        <a class="btn btn-large btn-primary" href="http://www.ijm.org">Learn more</a>
+                    </div>
+                </div>
+            </div>
     ...
   </div>
 
@@ -30,4 +40,5 @@
   <a class="right carousel-control" href="#carousel-example-generic" data-slide="next">
     <span class="glyphicon glyphicon-chevron-right"></span>
   </a>
+</div>
 </div>
