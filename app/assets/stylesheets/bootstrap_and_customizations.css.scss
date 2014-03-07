@@ -26,16 +26,26 @@ $text-color: #7f8c8d;
 }
 
 .content-section-a {
-	/*background-color: #f8f8f8;*/
+  /*background-color: #f8f8f8;*/
    padding-top: 157px;
-	/*padding: 50px 0;*/
+  /*padding: 50px 0;*/
 }
-
 .content-section-a p {
     font-weight: 400;
     font-size: 20px;
-    color: #404040;
+    width: 100%;
 }
+
+.content-section-b {
+  background-color: #e67e22;
+  padding-bottom: 157px;
+  /*padding: 50px 0;*/
+}
+
+.content-section-b h3 {
+  color: white;
+}
+
 
 .content-section-product {
     background-color: #fff;
@@ -43,27 +53,10 @@ $text-color: #7f8c8d;
     padding-bottom: 0px;
 }
 
-.content-section-b {
-    background-color: #e67e22;
+.footer {
+  color: #d3d3d3;
+    background-color: #3a3a3a;
+  padding-top: 75px;
+    padding-bottom: 125px;
 }
-
-.clearfix:before,
-.clearfix:after {
-  display: table;
-  content: " ";
-}
-
-.clearfix:after {
-  clear: both;
-}
-
-
-.banner {
-  padding-top: 200px;
-  padding-bottom: 250;
-  color: #e74c3c;
-  background-sizekground: url(/assets/apples.jpg) no-repeat center center;
-  background-size: cover;
-}
-
 
