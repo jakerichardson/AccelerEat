@@ -1,15 +1,21 @@
 @import url(http://fonts.googleapis.com/css?family=Quicksand:300,400,700);
 
 $font-family-sans-serif: 'Quicksand', sans-serif;
-$navbar-default-bg: #e74c3c;
-$navbar-default-link-color: white;
-$navbar-default-link-hover-color: #ecf0f1;
+
+$navbar-default-bg: white;
+$navbar-default-link-color: #7f8c8d;
+$navbar-default-link-hover-color: #e67e22;
+$navbar-height: 120px;
 /* $body-bg: #ecf0f1; */
-$btn-primary-bg: #e74c3c;
+$btn-primary-bg: #e67e22;
 $jumbotron-bg: white;
+$text-color: #7f8c8d;
 
 @import 'bootstrap';
 
+.navbar .nav > li > a {
+      padding: 90px 10px 5px
+    }
 
 .center {
 	text-align: center;
@@ -18,3 +24,46 @@ $jumbotron-bg: white;
 .justify {
 	text-align: justify;
 }
+
+.content-section-a {
+	/*background-color: #f8f8f8;*/
+   padding-top: 157px;
+	/*padding: 50px 0;*/
+}
+
+.content-section-a p {
+    font-weight: 400;
+    font-size: 20px;
+    color: #404040;
+}
+
+.content-section-product {
+    background-color: #fff;
+    padding-top: 50px;
+    padding-bottom: 0px;
+}
+
+.content-section-b {
+    background-color: #e67e22;
+}
+
+.clearfix:before,
+.clearfix:after {
+  display: table;
+  content: " ";
+}
+
+.clearfix:after {
+  clear: both;
+}
+
+
+.banner {
+  padding-top: 200px;
+  padding-bottom: 250;
+  color: #e74c3c;
+  background-sizekground: url(/assets/apples.jpg) no-repeat center center;
+  background-size: cover;
+}
+
+

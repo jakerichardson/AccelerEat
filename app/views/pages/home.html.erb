@@ -1,43 +1,27 @@
 
-<div class="jumbotron center" style="$jumbotron-bg: #c0392b">
-	<h1>welcome to accelerEat!</h1>
-  <br>
-
-<div id="carousel-example-generic" class="carousel slide" style="width: 900px; margin: 0 auto" data-ride="carousel">
-  <!-- Indicators -->
-  <ol class="carousel-indicators">
-    <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
-    <li data-target="#carousel-example-generic" data-slide-to="1"></li>
-    <li data-target="#carousel-example-generic" data-slide-to="2"></li>
-  </ol>
-
-  <!-- Wrapper for slides -->
-  <div class="carousel-inner">
-    <div class="item active">
-      <%= image_tag 'limetruck.jpg', class: "img-rounded" %>
-      <div class="carousel-caption">
-        <h3>featured: the lime truck</h3>
-        <p>Winners of The Great Food Truck Race on Food Network!</p>
+<!-- <div class="jumbotron center" style="$jumbotron-bg: #c0392b"> -->
+<div class="content-section-a">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-5 col-sm-6">
+        <h1 class="section-heading">bring it entree</h1>
+        <p>
+          accelerEAT is an incubator and accelerator for aspiring chefs and restauranteurs.
+        </p>
+        <%= link_to "What we do", about_path, class:"btn btn-primary center" %>
       </div>
+    <div class="col-lg-5 col-lg-offset-2 col-sm-6">      <%= image_tag "TopHalf.png", class: 'img-responsive', style: 'max-height: 540px; padding-top: px;' %>
     </div>
-    <div class="item">
-                <%= image_tag 'sashimi.jpg', class: "img-rounded" %>
-                <div class="container">
-                    <div class="carousel-caption">
-                        <h2>bring it entree</h2>
-                        <p class="lead">accelerEat is partnered with only the top local produce suppliers, meaning its from the farm to your fork, on the go. </p>
-                        <!-- <a class="btn btn-large btn-primary" href="http://www.ijm.org">Learn more</a> -->
-                    </div>
-                </div>
-            </div>
   </div>
-
-  <!-- Controls -->
-  <a class="left carousel-control" href="#carousel-example-generic" data-slide="prev">
-    <span class="glyphicon glyphicon-chevron-left"></span>
-  </a>
-  <a class="right carousel-control" href="#carousel-example-generic" data-slide="next">
-    <span class="glyphicon glyphicon-chevron-right"></span>
-  </a>
 </div>
+</div>
+<div class="content-section-b">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-5 col-sm-6">
+      </div>
+      <div class="col-lg-5 col-lg-offset-2 col-sm-6">      <%= image_tag "BottomHalf1.png", class: 'img-responsive', style: 'max-height: 540px; padding-top: px;' %>
+    </div>
+    </div>
+  </div>
 </div>
