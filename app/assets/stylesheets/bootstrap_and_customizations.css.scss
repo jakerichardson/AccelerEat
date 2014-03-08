@@ -5,7 +5,7 @@ $font-family-sans-serif: 'Quicksand', sans-serif;
 $navbar-default-bg: white;
 $navbar-default-link-color: #7f8c8d;
 $navbar-default-link-hover-color: #e67e22;
-$navbar-height: 120px;
+$navbar-height: 50px;
 /* $body-bg: #ecf0f1; */
 $btn-primary-bg: #e67e22;
 $jumbotron-bg: white;
@@ -14,8 +14,12 @@ $text-color: #7f8c8d;
 @import 'bootstrap';
 
 .navbar .nav > li > a {
-      padding: 90px 10px 5px
+      padding: 50px 10px 5px
     }
+
+.navbar .navbar-brand {
+  padding: 10px 10px;
+}
 
 .center {
 	text-align: center;
@@ -27,18 +31,19 @@ $text-color: #7f8c8d;
 
 .content-section-a {
   /*background-color: #f8f8f8;*/
-   padding-top: 157px;
+   padding-top: 100px;
   /*padding: 50px 0;*/
 }
+
 .content-section-a p {
     font-weight: 400;
-    font-size: 20px;
+    font-size: 18px;
     width: 100%;
 }
 
 .content-section-b {
   background-color: #e67e22;
-  padding-bottom: 157px;
+  padding-bottom: 100px;
   /*padding: 50px 0;*/
 }
 
@@ -46,6 +51,18 @@ $text-color: #7f8c8d;
   color: white;
 }
 
+.content-section-apply {
+  /*background-color: #f8f8f8;*/
+  padding-top: 100px;
+  padding-bottom: 70px;
+}
+
+
+.content-section-apply p {
+    font-weight: 400;
+    font-size: 18px;
+    width: 100%;
+}
 
 .content-section-product {
     background-color: #fff;
@@ -56,12 +73,12 @@ $text-color: #7f8c8d;
 .footer {
   color: #d3d3d3;
   background-color: #3a3a3a;
-  padding-top: 75px;
-  padding-bottom: 125px;
+  padding-top: 100px;
+  padding-bottom: 20px;
 }
 
 .whatwedo {
-  padding-top: 150px;
+  padding-top: 100px;
   padding-bottom: 40px;
   background-image: image-url('insideblur.jpg');
   background-size: cover; 
@@ -73,7 +90,7 @@ $text-color: #7f8c8d;
 
 
 .whoweare {
-  padding-top: 50px;
+  padding-top: 100px;
   padding-bottom: 30px;
   background-image: image-url('sideviewedited.jpg');
   background-size: cover; 
@@ -81,6 +98,11 @@ $text-color: #7f8c8d;
   font-size: 20px;
   width: 100%;
   color:  #34495e;
+}
+
+.footer {
+  background-color: #e67e22;
+  color: white;
 }
 
 
